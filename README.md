@@ -30,12 +30,12 @@ The script run_analysis.R will do the steps on the objective seassion above.
 
 **Prerequisites:**  
 The UCI HAR Dataset must be extractedin a directory named "UCI HAR Dataset"
-The required packages need to be instaled: dplyr, plyr, data.table, reshape2.
+The required packages need to be instaled: dplyr, plyr, reshape2.
 
 **Observations about the script:**  
 The script is commented to easy understand, in the final is created a file: datatidy.txt with the tidy data.
 I used only the variables containing "mean()" and std(), because i think this is the more useful data.
-I used the option for the long form. (but if you want, ommiting the line 74, will get the wide form data)  
+I used the option for the long form. (but if you want, ommiting the line 62, will get the wide form data)  
 The data meets the tidy data principles from http://vita.had.co.nz/papers/tidy-data.pdf.
 
 **To read the file in R:**  
