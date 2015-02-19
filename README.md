@@ -44,4 +44,5 @@ The data is in the coursera Peer Assessments to evaluate.
 
 Code Book
 -------------------
-The CodeBook.md file in this repository explains the transformations in the data and the resulting data variables.
+The CodeBook.md file in this repository explains the transformations in the data and the resulting data variables.  
+See more there to understand the variable names and other specifications.
