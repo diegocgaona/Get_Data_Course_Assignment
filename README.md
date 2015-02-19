@@ -38,7 +38,7 @@ I used only the variables containing "mean()" and std(), because i think this is
 I used the option for the long form. (but if you want, ommiting the line 74, will get the wide form data)
 
 **To read the file in R:**  
-`read.table(file = "datatidy.txt", header = TRUE)`
+`read.table(file = "datatidy.txt", header = TRUE)` (i think is best store this using `datatidy <-` )
 The data is in the coursera Peer Assessments to evaluate.  
 The data meets the tidy data principles.
 
