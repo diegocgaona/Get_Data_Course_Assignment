@@ -39,7 +39,8 @@ I used the option for the long form. (but if you want, ommiting the line 74, wil
 
 **To read the file in R:**  
 `read.table(file = "datatidy.txt", header = TRUE)`
-The file can be found in this repository too.
+The data is in the coursera Peer Assessments to evaluate.
+The data meets the tidy data principles.
 
 Code Book
 -------------------
