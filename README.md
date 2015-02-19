@@ -36,7 +36,7 @@ The required packages need to be instaled: dplyr, plyr, data.table, reshape2.
 The script is commented to easy understand, in the final is created a file: datatidy.txt with the tidy data.
 I used only the variables containing "mean()" and std(), because i think this is the more useful data.
 I used the option for the long form. (but if you want, ommiting the line 74, will get the wide form data)  
-The data meets the tidy data principles.
+The data meets the tidy data principles from http://vita.had.co.nz/papers/tidy-data.pdf.
 
 **To read the file in R:**  
 `read.table(file = "datatidy.txt", header = TRUE)` (i think is best store this using `datatidy <-` )  
