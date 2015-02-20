@@ -57,8 +57,7 @@ Measurement: nominal
 **Column: variable**  
 *Mean and std variable names from the sensors*  
 Storage mode: character  
-Measurement: nominal
-
+Measurement: nominal  
 **Labels:**  
 
     1	'tBodyAcc_Mean_X'
