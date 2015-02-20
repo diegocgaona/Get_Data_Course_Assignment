@@ -35,37 +35,33 @@ The data are in longform format, i think this is better for understood.
 About the variables:
 --------------------
 **Column: subject**  
-'An identifier of the subject who carried out the experiment'  
+*An identifier of the subject who carried out the experiment*  
 Storage mode: integer  
 Measurement: interval
 
-            Min:   1.000
-            Max:  30.000
-
+     Min:   1.000
+     Max:  30.000
 =======================================================================================================================
-
 **Column: activity**  
-'The activity labels'  
+*The activity labels*  
 Storage mode: character  
 Measurement: nominal  
 
 6 Labels:
 
     LAYING  
-	SITTING  
+    SITTING  
     STANDING  
     WALKING  
     WALKING_DOWNSTAIRS  
-
 =======================================================================================================================
-
 **Column: variable**  
-'Mean and std variable names from the sensors'  
+*Mean and std variable names from the sensors*  
 Storage mode: character  
 Measurement: nominal
 
-Labels:
-                                 
+**Labels:**  
+
     1	'tBodyAcc_Mean_X'
     2	'tBodyAcc_Mean_Y'  
     3	'tBodyAcc_Mean_Z'  
@@ -132,14 +128,11 @@ Labels:
     64	'fBodyBodyGyroMag_std'  
     65	'fBodyBodyGyroJerkMag_Mean'  
     66	'fBodyBodyGyroJerkMag_std'  
-
 =======================================================================================================================
-
 **Column: value**  
-'The data from the sensors'  
+*The data from the sensors*  
 Storage mode: numeric  
 Unit: Measurements
 
 =======================================================================================================================   
-
-# More info in README.md
+**More info in README.md**
