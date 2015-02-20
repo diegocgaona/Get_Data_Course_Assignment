@@ -34,7 +34,8 @@ The data are in longform format, i think this is better for understood.
 
 About the variables:
 --------------------
-**Column: subject 'An identifier of the subject who carried out the experiment'**
+**Column: subject  
+'An identifier of the subject who carried out the experiment'**
 
    Storage mode: integer
    Measurement: interval
@@ -44,9 +45,9 @@ About the variables:
 
 =======================================================================================================================
 
-   **Column: activity 'The activity labels'**
-   "What activity the subject are doing?"  
-
+   **Column: activity  
+   'The activity labels'**
+   
    Storage mode: character  
    Measurement: nominal  
 
@@ -59,12 +60,12 @@ About the variables:
 
 =======================================================================================================================
 
-   **Column: variable 'Mean and std variable names from the sensors'**  
+   **Column: variable  
+   'Mean and std variable names from the sensors'**  
    Storage mode: character
    Measurement: nominal
 
-   Labels:
-                                                 
+   Labels:                                                 
 1	'tBodyAcc_Mean_X'  
 2	'tBodyAcc_Mean_Y'  
 3	'tBodyAcc_Mean_Z'  
@@ -134,10 +135,12 @@ About the variables:
 
 =======================================================================================================================
 
-   **Column: value 'The data from the sensors'**  
-   "The values obtained from the sensors"
-
+   **Column: value  
+   'The data from the sensors'**  
+   
    Storage mode: numeric
    Unit: Measurements
 
-## More info in README.MD
+=======================================================================================================================   
+
+## More info in README.md
