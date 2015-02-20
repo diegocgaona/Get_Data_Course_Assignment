@@ -36,20 +36,21 @@ About the variables:
 --------------------
 **Column: subject**  
 'An identifier of the subject who carried out the experiment'  
-   Storage mode: integer  
-   Measurement: interval
+Storage mode: integer  
+Measurement: interval
 
             Min:   1.000
             Max:  30.000
 
 =======================================================================================================================
 
-   **Column: activity**  
-   'The activity labels'  
-   Storage mode: character  
-   Measurement: nominal  
+**Column: activity**  
+'The activity labels'  
+Storage mode: character  
+Measurement: nominal  
 
-    6 Labels:
+6 Labels:
+
     LAYING  
 	SITTING  
     STANDING  
@@ -58,12 +59,13 @@ About the variables:
 
 =======================================================================================================================
 
-   **Column: variable**  
-   'Mean and std variable names from the sensors'  
-   Storage mode: character  
-   Measurement: nominal
+**Column: variable**  
+'Mean and std variable names from the sensors'  
+Storage mode: character  
+Measurement: nominal
 
-   Labels:                                                 
+Labels:                                                 
+
     2	'tBodyAcc_Mean_Y'  
     3	'tBodyAcc_Mean_Z'  
     4	'tBodyAcc_std_X'  
@@ -132,10 +134,10 @@ About the variables:
 
 =======================================================================================================================
 
-   **Column: value**  
-   'The data from the sensors'  
-   Storage mode: numeric  
-   Unit: Measurements
+**Column: value**  
+'The data from the sensors'  
+Storage mode: numeric  
+Unit: Measurements
 
 =======================================================================================================================   
 
