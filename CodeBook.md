@@ -64,7 +64,8 @@ Measurement: nominal
 Storage mode: character  
 Measurement: nominal
 
-Labels:                                                 
+Labels:
+                                 
     1	'tBodyAcc_Mean_X'
     2	'tBodyAcc_Mean_Y'  
     3	'tBodyAcc_Mean_Z'  
