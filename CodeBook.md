@@ -41,7 +41,7 @@ Measurement: interval
 
      Min:   1.000
      Max:  30.000
-=======================================================================================================================
+
 **Column: activity**  
 *The activity labels*  
 Storage mode: character  
@@ -54,7 +54,7 @@ Measurement: nominal
     STANDING  
     WALKING  
     WALKING_DOWNSTAIRS  
-=======================================================================================================================
+
 **Column: variable**  
 *Mean and std variable names from the sensors*  
 Storage mode: character  
@@ -128,11 +128,10 @@ Measurement: nominal
     64	'fBodyBodyGyroMag_std'  
     65	'fBodyBodyGyroJerkMag_Mean'  
     66	'fBodyBodyGyroJerkMag_std'  
-=======================================================================================================================
+
 **Column: value**  
 *The data from the sensors*  
 Storage mode: numeric  
 Unit: Measurements
-
 =======================================================================================================================   
 **More info in README.md**
