@@ -37,10 +37,9 @@ About the variables:
 **Column: subject**  
 *An identifier of the subject who carried out the experiment*  
 Storage mode: integer  
-Measurement: interval
-
-     Min:   1.000
-     Max:  30.000
+Measurement: subjects ids  
+     Min:   1  
+     Max:  30  
 
 **Column: activity**  
 *The activity labels*  
