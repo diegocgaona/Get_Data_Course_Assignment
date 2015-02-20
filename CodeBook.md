@@ -12,25 +12,13 @@ More explanation about the raw data in: http://archive.ics.uci.edu/ml/datasets/H
 
 About the tidy data
 -------------------
-To make the tidy data, i ignored the "/Inertial Signals/" folders.
-I ignored the "MeanFreq" data, only using the "mean()" and "freq()" data.
-More info commented in the: "run_analysis.R" file in https://github.com/diegocgaona/Get_Data_Course_Assignment.
-The data are in longform format, i think this is better for understood.
-
-1. The raw data passed from the following transformations:  
-2. Load the train data files X_train.txt, y_train.txt, subject_train.txt  
-3. Load the test data files X_test.txt, y_test.txt, subject_test.txt  
-4. Load the labels from the files features.txt and activity_labels.txt  
-5. Combine the data from features to name the columns in x_train and x_test  
-6. Name the columns of y_test, y_train, subject_train, subject_test
-7. Combine x_train, y_train, subject_train  
-8. Combine x_test, y_test, subject_test  
-9. Combine train and test to the same data frame  
-10. Change the ids from activity column to the labels in features.txt  
-11. Select only the data with column names containing: "mean()" and "std()"  
-12. Rename the variables for more easy understand. I exclude the () and change - per _  
-13. Created a independent tidy dataset (datatidy), grouped by "subject"and "activity"  
-14. Save the tidy data to file "datatidy.txt"  
+To get the tidy data, the raw data passed for the some transformations:  
+To make the tidy data, i ignored the "/Inertial Signals/" folders.  
+I ignored the "MeanFreq" data, only using the "mean()" and "std()" data.  
+The data are in longform format, i think this is better for understood.  
+The tidy data is grouped by subject and activity, and have the means of the values collected by the sensors.  
+The data meets the tidy data principles from http://vita.had.co.nz/papers/tidy-data.pdf.  
+More info commented in the: "run_analysis.R" file in https://github.com/diegocgaona/Get_Data_Course_Assignment , and the README.md file.  
 
 About the variables:
 --------------------
