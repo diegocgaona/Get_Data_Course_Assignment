@@ -34,22 +34,23 @@ The data are in longform format, i think this is better for understood.
 
 About the variables:
 --------------------
-Column: subject 'An identifier of the subject who carried out the experiment'
+**Column: subject 'An identifier of the subject who carried out the experiment'**
 
    Storage mode: integer
    Measurement: interval
 
             Min:   1.000
             Max:  30.000
+
 =======================================================================================================================
 
-   Column: activity 'The activity labels'
-   "What activity the subject are doing?"
+   **Column: activity 'The activity labels'**
+   "What activity the subject are doing?"  
 
-   Storage mode: character
-   Measurement: nominal
+   Storage mode: character  
+   Measurement: nominal  
 
- 6 Labels:
+    6 Labels:
     LAYING  
 	SITTING  
     STANDING  
@@ -58,7 +59,7 @@ Column: subject 'An identifier of the subject who carried out the experiment'
 
 =======================================================================================================================
 
-   Column: variable 'Mean and std variable names from the sensors'
+   **Column: variable 'Mean and std variable names from the sensors'**  
    Storage mode: character
    Measurement: nominal
 
@@ -133,8 +134,10 @@ Column: subject 'An identifier of the subject who carried out the experiment'
 
 =======================================================================================================================
 
-   datatidy.value 'The data from the sensors'
+   **Column: value 'The data from the sensors'**  
    "The values obtained from the sensors"
 
    Storage mode: numeric
    Unit: Measurements
+
+## More info in README.MD
