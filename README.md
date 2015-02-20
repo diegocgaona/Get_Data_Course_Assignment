@@ -38,6 +38,21 @@ I used only the variables containing "mean()" and std(), because i think this is
 I used the option for the long form. (but if you want, ommiting the line 62, will get the wide form data)  
 The data meets the tidy data principles from http://vita.had.co.nz/papers/tidy-data.pdf.
 
+**What the script do?**  
+1. Load the train data files X_train.txt, y_train.txt, subject_train.txt  
+2. Load the test data files X_test.txt, y_test.txt, subject_test.txt  
+3. Load the labels from the files features.txt and activity_labels.txt  
+4. Combine the data from features to name the columns in x_train and x_test  
+5. Name the columns of y_test, y_train, subject_train, subject_test
+6. Combine x_train, y_train, subject_train  
+7. Combine x_test, y_test, subject_test  
+8. Combine train and test to the same data frame  
+9. Change the ids from activity column to the labels in features.txt  
+10. Select only the data with column names containing: "mean()" and "std()"  
+11. Rename the variables for more easy understand. I exclude the () and change - per _  
+12. Created a independent tidy dataset (datatidy), grouped by "subject"and "activity"  
+13. Save the tidy data to file "datatidy.txt"  
+
 **To read the file in R:**  
 `read.table(file = "datatidy.txt", header = TRUE)` (i think is best store this using `datatidy <-` )  
 The data is in the coursera Peer Assessments to evaluate.  
