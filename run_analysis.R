@@ -3,7 +3,6 @@
 ## Check if the necessary librarys are loaded, if not, require load it
 require(dplyr)
 require(plyr)
-require(data.table)
 require(reshape2)
 
 ## Load the train data files
@@ -25,7 +24,7 @@ features <- as.vector(features[,2]) ## Transform the column with names into a ve
 names(x_train) <- features ## Use the vector features to name the columns of x_train
 names(x_test) <- features ## Use the vector features to name the columns of x_test
 
-## Name the columns for y_test, x_test, subject_train, subject_test
+## Name the columns for y_test, y_train, subject_train, subject_test
 colnames(y_train) <- "activity"
 colnames(y_test) <- "activity"
 colnames(subject_train) <- "subject"
@@ -59,9 +58,7 @@ names(datacomb) <- gsub("mean","Mean", x = colnames(datacomb))
 names(datacomb) <- gsub("-","_", x = colnames(datacomb))
 
 ## Create a independent tidy dataset, grouped by "subject"and "activity"
-datatidy <- datacomb ## Separate the data to be tidy
-datatidy %>% 
-      ddply(c("subject","activity"), colwise(mean)) %>% ## Group and summarise the data
-      melt(id=c("subject","activity")) %>% ## Change the wide form to long form
-      ## Save the tidy data to file
-      write.table(file = "datatidy.txt", row.names = FALSE) ## Write the file with tidy data
+datatidy <- ddply(datacomb, c("subject","activity"), colwise(mean))## Group and summarise the data
+datatidy <- melt(datatidy, id=c("subject","activity")) ## Change the wide form to long form
+## Save the tidy data to file
+write.table(datatidy, file = "datatidy.txt", row.names = FALSE) ## Write the file with tidy data
